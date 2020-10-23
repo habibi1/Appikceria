@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/laboratorium"
+        android:title="@string/laboratorium"/>
+
+    <item
+        android:id="@+id/sd"
+        android:title="@string/sertifikasi_karantina_ikan_dan_mutu_hasil_perikanan"/>
+
+</menu>

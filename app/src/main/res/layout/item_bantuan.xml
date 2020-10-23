@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/cv_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/radius_card"
+    android:elevation="@dimen/zero"
+    app:cardElevation="@dimen/zero"
+    android:layout_margin="@dimen/margin_little">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_little">
+
+        <TextView
+            android:id="@+id/tv_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:padding="@dimen/padding_little"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_title_bantuan"/>
+
+        <TextView
+            android:id="@+id/tv_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tanggal"
+            android:padding="@dimen/padding_little"
+            android:textSize="@dimen/size_desc_bantuan"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

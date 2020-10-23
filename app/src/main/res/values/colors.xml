@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#2699FB</color>
+    <color name="colorPrimaryDark">#1F7AC8</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="semiTransparent">#562699FB</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="transparent_zoomable">#3E000000</color>
+    <color name="color_menu_1">#4E7EB1</color>
+    <color name="color_menu_2">#4DDD5B</color>
+    <color name="color_menu_3">#EA6C6C</color>
+    <color name="color_menu_4">#6B9DDA</color>
+    <color name="red">#ED7A70</color>
+    <color name="card_color_lampiran">#D8D8D8</color>
+
+    <array name="array_dot_active">
+        <item>#FFFFFF</item>
+        <item>#FFFFFF</item>
+        <item>#FFFFFF</item>
+        <item>#FFFFFF</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>#818181</item>
+        <item>#818181</item>
+        <item>#818181</item>
+        <item>#818181</item>
+    </array>
+</resources>

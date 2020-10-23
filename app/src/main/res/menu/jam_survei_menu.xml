@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/waktu_1"
+        android:title="@string/_08_00_12_00"/>
+
+    <item
+        android:id="@+id/waktu_2"
+        android:title="@string/_13_00_17_00"/>
+
+</menu>

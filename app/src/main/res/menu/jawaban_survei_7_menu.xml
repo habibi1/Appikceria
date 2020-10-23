@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/a"
+        android:title="@string/tidak_sopan_dan_ramah"/>
+
+    <item
+        android:id="@+id/b"
+        android:title="@string/kurang_sopan_dan_ramah"/>
+
+    <item
+        android:id="@+id/c"
+        android:title="@string/sopan_dan_ramah"/>
+
+    <item
+        android:id="@+id/d"
+        android:title="@string/sangat_sopan_dan_ramah"/>
+
+</menu>

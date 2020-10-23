@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background_center">
+
+    <ImageView
+        android:id="@+id/iv_dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="end"
+        android:padding="@dimen/padding_normal"
+        android:contentDescription="@string/close" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_normal">
+
+            <ImageView
+                android:id="@+id/image_item"
+                android:layout_width="@dimen/width_foto_medium"
+                android:layout_height="@dimen/height_foto_medium"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:src="@drawable/ic_image"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/et_judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_title"
+                android:text="@string/judul"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/margin_normal"/>
+
+            <TextView
+                android:id="@+id/et_tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_title"
+                android:text="@string/tanggal"
+                android:layout_marginBottom="@dimen/margin_normal"/>
+
+            <TextView
+                android:id="@+id/et_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deskripsi"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pns"
+        android:title="@string/pns"/>
+
+    <item
+        android:id="@+id/tni"
+        android:title="@string/tni"/>
+
+    <item
+        android:id="@+id/polri"
+        android:title="@string/polri"/>
+
+    <item
+        android:id="@+id/swasta"
+        android:title="@string/swasta"/>
+
+    <item
+        android:id="@+id/wirausaha"
+        android:title="@string/wirausaha"/>
+
+    <item
+        android:id="@+id/lainnya"
+        android:title="@string/lainnya"/>
+</menu>

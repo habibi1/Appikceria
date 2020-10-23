@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sd"
+        android:title="@string/sd"/>
+
+    <item
+        android:id="@+id/smp"
+        android:title="@string/smp"/>
+
+    <item
+        android:id="@+id/sma"
+        android:title="@string/sma"/>
+
+    <item
+        android:id="@+id/diploma"
+        android:title="@string/diploma"/>
+
+    <item
+        android:id="@+id/s1"
+        android:title="@string/s1"/>
+
+    <item
+        android:id="@+id/s2"
+        android:title="@string/s2"/>
+
+    <item
+        android:id="@+id/s3"
+        android:title="@string/s3"/>
+</menu>
