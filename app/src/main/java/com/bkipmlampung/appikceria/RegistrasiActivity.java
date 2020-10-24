@@ -32,6 +32,7 @@ import com.bkipmlampung.appikceria.model.RegisterResponse;
 import com.bkipmlampung.appikceria.network.ApiService;
 import com.bkipmlampung.appikceria.network.Client;
 import com.bkipmlampung.appikceria.utils.DeviceIDUtil;
+import com.bkipmlampung.appikceria.utils.RealPathUtil;
 import com.bkipmlampung.appikceria.utils.SharedPreference;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -411,7 +412,7 @@ public class RegistrasiActivity extends AppCompatActivity implements View.OnClic
         //buttonNext.setVisibility(View.GONE);
         //progressBar.setVisibility(View.VISIBLE);
 
-        String filePath = getRealPathFromURIPath(imageUri, RegistrasiActivity.this);
+        String filePath = RealPathUtil.getRealPath(RegistrasiActivity.this, imageUri);
         File file = new File(filePath);
 
         if (file.exists()){

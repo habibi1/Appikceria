@@ -38,6 +38,7 @@ import com.bkipmlampung.appikceria.R;
 import com.bkipmlampung.appikceria.model.SetDataImagesResponse;
 import com.bkipmlampung.appikceria.network.ApiService;
 import com.bkipmlampung.appikceria.network.Client;
+import com.bkipmlampung.appikceria.utils.RealPathUtil;
 import com.bkipmlampung.appikceria.utils.SharedPreference;
 import com.bkipmlampung.appikceria.utils.StringUtils;
 import com.bkipmlampung.appikceria.utils.TimeUtil;
@@ -414,7 +415,8 @@ public class PengaduanActivity extends AppCompatActivity implements View.OnClick
 
         MultipartBody.Part filegambar;
 
-        String filePath = getRealPathFromURIPath(imageUri, PengaduanActivity.this);
+//        String filePath = getRealPathFromURIPath(imageUri, PengaduanActivity.this);
+        String filePath = RealPathUtil.getRealPath(PengaduanActivity.this, imageUri);
         final File file = new File(filePath);
         Log.d("File",""+file.getName());
 

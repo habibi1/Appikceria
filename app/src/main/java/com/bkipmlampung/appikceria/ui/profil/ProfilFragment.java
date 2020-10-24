@@ -42,6 +42,7 @@ import com.bkipmlampung.appikceria.model.UpdateProfileResponse;
 import com.bkipmlampung.appikceria.network.ApiService;
 import com.bkipmlampung.appikceria.network.Client;
 import com.bkipmlampung.appikceria.utils.DeviceIDUtil;
+import com.bkipmlampung.appikceria.utils.RealPathUtil;
 import com.bkipmlampung.appikceria.utils.SharedPreference;
 import com.bumptech.glide.Glide;
 import com.google.android.material.textfield.TextInputEditText;
@@ -605,7 +606,8 @@ public class ProfilFragment extends Fragment implements View.OnClickListener, To
         //dialogEditProfilProgressBar.setVisibility(View.VISIBLE);
         //dialogButtonEdit.setVisibility(View.GONE);
 
-        String filePath = getRealPathFromURIPath(imageUri, getActivity());
+//        String filePath = getRealPathFromURIPath(imageUri, getActivity());
+        String filePath = RealPathUtil.getRealPath(getActivity(), imageUri);
         final File file = new File(filePath);
         Log.d("File",""+file.getName());
 

@@ -34,6 +34,7 @@ import com.bkipmlampung.appikceria.R;
 import com.bkipmlampung.appikceria.model.SetDataImagesResponse;
 import com.bkipmlampung.appikceria.network.ApiService;
 import com.bkipmlampung.appikceria.network.Client;
+import com.bkipmlampung.appikceria.utils.RealPathUtil;
 import com.bkipmlampung.appikceria.utils.SharedPreference;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.datepicker.MaterialDatePicker;
@@ -421,7 +422,8 @@ public class KeluhanPenyakitActivity extends AppCompatActivity implements View.O
         //buttonNext.setVisibility(View.GONE);
         //progressBar.setVisibility(View.VISIBLE);
 
-        String filePath = getRealPathFromURIPath(imageUri, KeluhanPenyakitActivity.this);
+        //String filePath = getRealPathFromURIPath(imageUri, KeluhanPenyakitActivity.this);
+        String filePath = RealPathUtil.getRealPath(KeluhanPenyakitActivity.this, imageUri);
         final File file = new File(filePath);
         Log.d("File",""+file.getName());
 
